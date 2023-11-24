@@ -15,4 +15,11 @@ struct Book
 		cin.getline(year_vipusku, sizeof(year_vipusku));
 		cout << "\n\n\n\n\n\n";
 	}
+	void PrintResult() {
+		cout << "Books in libraly: \n";
+		for (size_t i = 0; i < count_books; i++)
+		{
+			cout << "Name books: " << books[i].name << "\nAuthor books: " << books[i].author << "\nYear vipusku: " << books[i].year_vipusku << endl;
+		}
+	}
 };

@@ -4,5 +4,5 @@ int main(){
 	Book newBook;
 	newBook.Input();
 	libraly.addbooks(newBook);
-	libraly.PrintResult();
+	newBook.PrintResult();
 }
